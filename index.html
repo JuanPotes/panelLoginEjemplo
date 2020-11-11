@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panel de login</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="icon" href="https://www.pngrepo.com/download/6398/login.png">
+</head>
+
+<body>
+    <section id="contenedor-form">
+        <img src="https://www.flaticon.es/svg/static/icons/svg/921/921347.svg" alt="Usuario" id="img-login">
+        <form>
+            <div class="fila-first">
+                <input type="text" name="" class="campo-texto" placeholder="Nombre" required pattern="[A-Za-z]+">
+                <input type="text" name="" class="campo-texto" placeholder="Apellido" required pattern="[A-Za-z]+">
+            </div>
+            <div class="fila-form">
+                <i class="fas fa-user"></i>
+                <input type="text" name="" class="campo-texto-fila" placeholder="Nombre de Usuario" required pattern="[A-Za-z0-9]+" minlength="5">
+            </div>
+            <div class="fila-form">
+                <i class="fas fa-envelope"></i>
+                <input type="email" name="" class="campo-texto-fila" placeholder="Email" required>
+            </div>
+            <div class="fila-form">
+                <i class="fas fa-mobile-alt"></i>
+                <input type="text" name="" class="campo-texto-fila" placeholder="Numero de celular" required pattern="[0-9]+">
+            </div>
+            <div class="fila-form">
+                <i class="fas fa-key"></i>
+                <input type="password" name="" class="campo-texto-fila" placeholder="Ingrese contraseña" required pattern="[A-Za-z0-9]+" minlength="7" maxlength="14">
+            </div>
+            <div class="fila-form">
+                <i class="fas fa-key"></i>
+                <input type="password" name="" class="campo-texto-fila" placeholder="Confirme contraseña" required pattern="[A-Za-z0-9]+" minlength="7" maxlength="14">
+            </div>
+            <button type="submit">Registrarse</button>
+        </form>
+    </section>
+</body>
+
+</html>
